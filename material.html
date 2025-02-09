@@ -1,0 +1,26 @@
+import { useParams } from "react-router-dom";
+
+const materialsData = {
+  cement: ["Portland Cement", "White Cement", "Rapid Hardening Cement"],
+  steel: ["TMT Bars", "Mild Steel Bars", "Structural Steel"],
+  bricks: ["Clay Bricks", "Fly Ash Bricks", "Concrete Blocks"],
+  wood: ["Plywood", "Hardwood", "Softwood"],
+};
+
+export default function MaterialList() {
+  const { material } = useParams();
+  const items = materialsData[material] || [];
+
+  return (
+    <div className="p-4">
+      <h1 className="text-2xl font-bold">{material.toUpperCase()} Materials</h1>
+      <ul className="mt-4 list-disc list-inside">
+        {items.length > 0 ? (
+          items.map((item, index) => <li key={index}>{item}</li>)
+        ) : (
+          <p>No materials found.</p>
+        )}
+      </ul>
+    </div>
+  );
+}
