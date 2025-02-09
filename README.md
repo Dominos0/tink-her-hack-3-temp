@@ -1,14 +1,14 @@
-# [Project Name] 🎯
+BUILDMAX 🎯
 
-
-## Basic Details
-### Team Name: [Name]
+## basic details
+WEBSITE THAT MAKE AFFORDABLE BUILDING PLANS, MATERIALS,QUANTITY RATES AND EXPERT ENGINEERS AVAILABLE TO ANYONE WHO IS PLANING TO BUILD A HOUSE OR WANTS TO MAINTAIN AN EXISTING HOUSE
+### Team Name: DOMINOS
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- KAVYA VENU - CARMEL POLYTECHNIC COLLEGE ALAPPUZHA
+- JAYALAKSHMI S - CARMEL POLYTECHNIC COLLEGE ALAPPUZHA
+- NANDANA D - CARMEL POLYTECHNIC COLLEGE ALAPPUZHA
 
 ### Hosted Project Link
 [mention your project hosted project link here]
